@@ -1,32 +1,38 @@
-# 🏗️ Use Data Attributes to Display Hidden Number
+# 📖 Create a Speed-Reader
 
 Work with a partner to implement the following user story:
 
-* As a player, I want to click on a card and view the hidden number.
+* As a developer, I want to create a speed-reading application that prints a single word of a message at a time.
 
 ## Acceptance Criteria
 
-* It is done when I click on a card and the hidden number is revealed.
+* It's done when the number of seconds left on the countdown is printed on the screen.
 
-* It is done when the number is visible if the card is clicked.
+* It's done when, after the countdown of 5 seconds ends, the words of the message appear on the screen, one word at a time.
+
+## 📝 Notes
+
+Refer to the documentation:
+
+[MDN Documentation on setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
+
+[MDN Documentation on clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 
 ## Assets
 
-The following image demonstrates the web application's appearance and functionality:
+The following animation demonstrates the web application's appearance and functionality:
 
-![Six cards appear in a grid, with the numbers 1, 3, and 5 displayed on three of the cards while the remaining three appear blank.](./images/01-screenshot.png)
-
----
+![A countdown of 5 seconds begins and then single words appear on the screen.](./images/demo1.gif)
 
 ## 💡 Hints
 
-How can we use the `dataset` object to access an element's data attributes?
+How does `displayMessage()` use the `setInterval()` and `clearInterval()` methods to display the words at an interval of 1000 milliseconds?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* We have learned `getAttribute()` and `setAttribute()`. What other methods can you use to access an element's attributes?
+* Which `window` method is used to delay an action for a set number of milliseconds? Why might this method be useful?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
